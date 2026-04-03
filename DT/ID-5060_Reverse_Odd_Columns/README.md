@@ -1,47 +1,41 @@
-Given a matrix of size NxN, the program must reverse the columns present in odd positions of the matrix and print the
+🔁 Reverse Odd Columns in Matrix
+📌 Problem Statement
 
-Great! Your code has passed.
+Given a matrix of size N × N, reverse the columns present in odd positions (1-based indexing) and print the resulting matrix.
 
-matrix.
-Boundary Condition(s):
-
-SUCCESS
-
-1 <= N <= 100
-Input Format:
-The first line contains N.
-
-Congratulations! Your Code has passed.
-
-The next N lines contain the matrix.
-Output Format:
-The first N line contains the specified output.
-
-Proceed Next
-
-Example Input/Output 1:
-Input:
-
+🧠 Concept
+Columns are considered odd-positioned using 1-based indexing:
+1st column → reverse
+3rd column → reverse
+5th column → reverse
+Even-positioned columns remain unchanged.
+Reversing a column means swapping elements top to bottom.
+📥 Input Format
+First line: Integer N (size of matrix)
+Next N lines: Matrix elements
+📤 Output Format
+Print the modified matrix after reversing odd columns
+🔒 Constraints
+1 ≤ N ≤ 100
+🧪 Example 1
+Input
 3
-
-Run with a custom test case (Input/Output)
-
 123
 456
 789
-Output:
+Output
 729
 456
 183
-Example Input/Output 2:
-Input:
+🧪 Example 2
+Input
 4
 12 56 89 555
 76 332 22 17
 77 33 77 99
 56 56 29 48
-Output:
+Output
 56 56 29 555
 77 332 77 17
 76 33 22 99
-12 56 89 4
+12 56 89 48
